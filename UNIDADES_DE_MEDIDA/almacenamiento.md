@@ -14,3 +14,8 @@
 1 DVD = 4.7 GB = 4.7 * 1024 MB = 4812,8 MB  
 4812,8 / 700 = 6,87 --> Se necesitan 7 CDs para meter todos los datos de un DVD  
 
+**6. Si te compras un disco duro portatil (USB) de 1 TB, ¿cuántos DVD's enteros podrías volcar en él?**  
+1 DVD = 4.7 GB  
+1 TB = 1024 GB  
+1024/4.7 = 217,87 --> 217 DVD enteros podemos volcar en el USB  
+
