@@ -1,4 +1,4 @@
-## Ejercicios
+## Ejercicios Almacenamiento
 **1. ¿Cuántos bytes se almacenan en un pendrive de 4GB?.**  
 1 GB = 1024 * 1024 * 1024 B  
 4 GB = 4 * 1024 * 1024 * 1024 B  
@@ -18,4 +18,36 @@
 1 DVD = 4.7 GB  
 1 TB = 1024 GB  
 1024/4.7 = 217,87 --> 217 DVD enteros podemos volcar en el USB  
+
+## Ejercicios Velocidad de transmisión
+**Ejercicio página 9**  
+Velocidad WIFI 54 Mb/s  
+Película de tamaño 3Gb  
+Duración de la película 156 minutos  
+¿Se para la película al transmitirla en esta WIFI?  
+
+3Gb = 1024 * 3Gb = 3072Mb  
+156 minutos = 156 minutos * 60 = 9360 segundos  
+para saberlo vamos a ver si se transmiten los 3072Mb antes de final del peli, osea antes de 9360 segundos.  
+3072Mb / 54 Mb/s = 56.88 segundos tarda en transmitir toda la peli.  
+Como 56.88 es menor que la duración (9360) entonces la peli se ve perfectamente, no hay parones y además habría un montón buffer almacenado.  
+
+¿Tiempo de descarga de la misma película con la velocidad de transferencia de 87 Kb/s?  
+3Gb = 1024 * 1024 * 3Gb = 3145728 Kb  
+3145728 Kb / 87 Kb/s = 36157.8 segundos  --> 36157.8s / 60 = 602 min --> 602 min / 60 = 10 horas  
+
+**2. ¿Cuántos KB/s bajas con una línea ADSL de 6 Mb?**  
+1B = 8b  --> 1 byte es igual a 8 bits  
+6Mb = 6Mb / 8 = 0.75 MB  
+0.75 MB/s = 0.75MB/s * 1024 = 768 KB/s 
+
+**3 ¿Cuántos MB puedes bajarte al minuto con la línea ADSL anterior?**  
+
+768 KB/s * 60 = 46080 KB/min = 46080 KB/min / 1024 = 45 MB/min  
+
+
+## Ejercicios frecuencia de procesador    
+**Dado una CPU de 10GHz. Si el tipo de instrucciones es de tipo RISC (reducida, 1 instrucción cada 5 ciclos de reloj)**    
+**¿Cuantas instrucciones se ejecutan en 1 segundo?**  
+**¿y en 2 minutos?**  
 
